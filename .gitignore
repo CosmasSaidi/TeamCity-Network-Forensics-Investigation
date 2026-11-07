@@ -1,0 +1,24 @@
+# Local tools and credentials
+/.agents/
+/.codex/
+/.aws/
+.env
+.env.*
+!.env.example
+credentials
+credentials.*
+*.pem
+*.key
+
+# Backups and temporary files
+backup/
+backups/
+*.bak
+*.backup
+*.orig
+*.tmp
+*.swp
+*~
+__pycache__/
+.DS_Store
+Thumbs.db
